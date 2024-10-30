@@ -10,4 +10,5 @@ if (true) {
   let favoriteColor = "blue";
   console.log(favoriteColor); // Output: blue
 }
-// console.log(favoriteColor); // This would give an error, because 'favoriteColor' only exists in the block above.
+// console.log(favoriteColor); // This would give an error, because 
+// 'favoriteColor' only exists in the block above.

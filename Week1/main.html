@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JavaScript in VSCode</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello from HTML</h1>
-    <script src="Function.js"></script>
+
+  <h1>To-Do List</h1>
+  <form>
+    <label for="taskName">Task Name:</label>
+    <input type="text" id="taskName" required>
+
+    <label for="priority">Priority:</label>
+    <select id="priority" required>
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
+
+    <label for="description">Description:</label>
+    <textarea id="description"></textarea>
+
+    <button type="button" id="addTaskButton">Add Task</button>
+  </form>
+
+  <h2>Your Tasks</h2>
+  <ul id="taskList"></ul>
+
+  <script src="script.js"></script>
 </body>
 </html>
