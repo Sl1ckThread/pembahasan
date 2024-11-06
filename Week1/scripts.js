@@ -4,6 +4,7 @@ function addTask() {
   let nama = getElement("#nama").value;
   let comment = getElement("#Comment").value;
   
+  
   if (nama && comment) {
     alert("Filled Sucessfully")
   }
